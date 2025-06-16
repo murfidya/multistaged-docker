@@ -1,0 +1,6 @@
+services:
+  app:
+    build: .
+    container_name: go-app
+    stdin_open: true
+    tty: true
